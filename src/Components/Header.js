@@ -12,7 +12,7 @@ function Header(props){
                 <h1>React</h1>
                 <nav>
                     <ul>
-                        <li class="six"><Link to="/home">Home</Link></li>
+                        <li class="six"><Link to="/">Home</Link></li>
                         <li class="home-2"><NavLink className = {navData => (navData.isActive ? "active" : "")}to="/about-us">AboutUs</NavLink></li>
                         <li class="home-3"><NavLink className = {navData => (navData.isActive ? "active" : "")} to = "/tutorials">Tutorial</NavLink></li>
                         {/*Using  object destructuring*/}
