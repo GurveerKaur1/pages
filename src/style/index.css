@@ -1,0 +1,76 @@
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+header {
+    height: 60px;
+    background-color: #dcdcdc;
+}
+
+
+
+h1 {
+    width: 40%;
+    font-size: 40px;
+    font-weight: 600;
+    color: olive;
+    /* margin-right: 30px; */
+    line-height: 60px;
+}
+
+span {
+    color: purple;
+}
+
+nav {
+    width: 60%;
+    text-align: right;
+    font-size: 24px;
+    color: olive;
+    /* margin-right: 30px; */
+    line-height: 60px;
+    font-weight: 600;
+
+}
+
+.flexbox {
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+nav ul li:last-child{
+    margin-right: 0px;
+
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: olive;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+}
+
+p{
+    color:#dcdcdc
+}
+
+h2{
+    color: #dcdcdc;
+}
+
+.tutorials li{
+    color: #dcdcdc;
+}
+ nav ul  .active{
+    background-color: aqua;
+}
