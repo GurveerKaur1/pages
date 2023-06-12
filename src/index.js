@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //wrapper for your components
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/home'>
       <App />
     </Router>
   </React.StrictMode>
